@@ -25,3 +25,39 @@
 .item:hover{
     color: cornflowerblue;
 }
+.banner-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(37, 7, 7), rgb(0, 0, 0));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-img{
+    width: 300px;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+.btn:hover{
+    color:lightgoldenrodyellow
+}
